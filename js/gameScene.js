@@ -13,8 +13,8 @@ class GameScene extends Phaser.Scene {
   
       this.background = null
       this.score = 0
-      this.scoreText = null
-      this.scoreTextStyle = { font: "65px Arial", fill: "#ffffff", align: "center" }
+      this.winsTitle = null
+      this.scoreTextStyle = { font: "65px Arial", fill: "#ffffff", align: "r" }
       this.gameOverTextStyle = { font: "65px Arial", fill: "#ff0000", align: "center" }
       }
   
@@ -36,7 +36,9 @@ class GameScene extends Phaser.Scene {
     this.background = this.add.image(0, 0, "gameBackground").setScale(2.0)
     this.background.setOrigin(0, 0)
   
-    this.scoreText = this.add.text(10, 10, "Score: " + this.score.toString(), this.scoreTextStyle)
+    this.winsTitle = this.add.text(1550, 900, "Wins ", this.scoreTextStyle)
+    this.yourWins = this.add.text(1550, 950, "You: " + this.score.toString(), this.scoreTextStyle)
+    this.computerWins = this.add.text(1550, 1000, "Computer: " + this.score.toString(), this.scoreTextStyle)
   }
   
     update(time, delta) {

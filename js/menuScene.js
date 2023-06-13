@@ -64,7 +64,7 @@ class MenuScene extends Phaser.Scene {
     }
   
     clickButton() {
-      this.scene.switch("gameScene")
+      location.href="./gameScene.html"
     }
   }
   
