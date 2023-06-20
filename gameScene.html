@@ -19,21 +19,20 @@
         <!-- get the latest release here: https://phaser.io/download/stable -->
         <script src="//cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
         <script src="./js/script.js"></script>
-        <div id="instructions"></div>
-        <br />
-        <div id="game">
+        <div class="instructions" id="instructions"></div>
+        <div class="game" id="game">
             <br />
             Computer's board
             <br />
             <!--Computer button one-->
             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="computer-1" onclick="computerButton1()">
                 <input type="radio" id="computer-1" class="mdl-radio-button" name="options" value="2">
-                <span class="mdl-radio__label"></span>
+                <span class="mdl-radio-label"></span>
             </label>
             <!--Computer button two-->
             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="computer-2" onclick="computerButton2()">
                 <input type="radio" id="computer-2" class="mdl-radio-button" name="options" value="2">
-                <span class="mdl-radio__label"></span>
+                <span class="mdl-radio-label"></span>
             </label>
             <br />
             <br />
@@ -42,16 +41,16 @@
             <!--Player button one-->
             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="player-1" onclick="playerButton1()">
                 <input type="radio" id="player-1" class="mdl-radio-button" name="options" value="2">
-                <span class="mdl-radio__label"></span>
+                <span class="mdl-radio-label"></span>
             </label>
             <!--Player button two-->
             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="player-2" onclick="playerButton2()">
                 <input type="radio" id="player-2" class="mdl-radio-button" name="options" value="2">
-                <span class="mdl-radio__label"></span>
+                <span class="mdl-radio-label"></span>
             </label>
         </div>
         <br />
         <div id="player-ship-placement"></div>
-        <div id="game-over"></div>
+        <div class="game-over" id="game-over"></div>
     </body>
 </html>

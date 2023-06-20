@@ -10,30 +10,23 @@
     opacity: 0.001;
   }
   
-  .mdl-layout__header-row {
-    justify-content: center;
-    padding: 0;
-  }
-  
-  .mdl-layout__content {
-    padding-left: 20pt;
-    padding-right: 20pt;
-    padding-top: 20pt;
-    font-family: Georgia, serif;
-  }
-  
-  .instructions {
+.instructions {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: xx-large;
+    font-size: x-large;
   }
 
-  .game-over {
+.game {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: large;
+  }
+
+.game-over {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: xx-large;
     color: blue;
     text-align: center;
   }
-  
-  body {
-    background-color: lightblue;
+
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images4/Underwater-Background-HD-3.jpg");
   }
